@@ -53,14 +53,19 @@ li {
 }
 
 
-header .box {
+header .container .top-menu{
     display: flex;
     color: white;
-    margin: auto;
-    width: 1000px;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+}
+
+
+.box {
+    margin: auto;
+    width: 1000px;
+    display: flex;
 }
 
 
@@ -84,3 +89,42 @@ header nav .box .icon-links{
 img {
     width: 100px;
 }
+
+
+
+/*
++++++++++++++
+main
++++++++++++++
+ */
+
+/*
++++++++++++++
+typo main
++++++++++++++
+ */
+
+
+ .foto-abito{
+    width: 440px;
+    height: 640px;
+    background-color: chartreuse;
+    border: 2px solid black;
+ }
+
+ main .abito {
+    width: calc(100% / 3 - 10px);
+ }
+
+ main .prodotti {
+    margin-top: 120px;
+    
+  }
+
+.main-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
