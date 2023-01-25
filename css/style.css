@@ -115,7 +115,7 @@ typo main
  }
 
  main .prodotti {
-    margin-top: 50px;
+    margin-bottom: 60px;
  
     
   }
@@ -125,6 +125,7 @@ typo main
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
+    margin-top: 60px;
   }
 
 
@@ -216,4 +217,51 @@ main .main-flex .prodotti .abito .foto-abito .prefer-heart:hover{
 
 .foto-abito:hover .foto-b{
     display: inline-block;
+}
+
+
+/*
++++++++++++++
+footer
++++++++++++++
+ */
+
+
+
+/*
++++++++++++++
+typo footer
++++++++++++++
+ */
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.6em;
+}
+
+footer .footer-menu ul{
+    display: flex;
+    gap: 10px;
+}
+
+.link-social{
+    justify-content: center;
+    gap: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.info{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
