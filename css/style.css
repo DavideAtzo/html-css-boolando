@@ -129,7 +129,6 @@ typo main
 
 
 main .main-flex .prodotti .abito .foto-abito img{
-    display: block;
     width: 100%;
 
 }
@@ -202,4 +201,19 @@ main .main-flex .prodotti .abito .foto-abito .prefer-heart{
     right: 0;
     top: 10px;
     font-size: 25px;
+}
+
+main .main-flex .prodotti .abito .foto-abito .prefer-heart:hover{
+    color: red;
+}
+
+.foto-b{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.foto-abito:hover .foto-b{
+    display: inline-block;
 }
