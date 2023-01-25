@@ -1,14 +1,70 @@
-
 /*
 +++++++++++++
 reset
 +++++++++++++
  */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+
+/*
++++++++++++++
+Common
++++++++++++++
+ */
+
+ .container {
+    margin: 0 auto;
+}
+
+.container.box {
+    max-width: 1400px;
+}
+
+
+
+/*
++++++++++++++
+header
++++++++++++++
+ */
+
+/*
++++++++++++++
+typo header
++++++++++++++
+ */
+
+ li{
+    list-style-type: none;
+ }
+
+
+header .nav-flex .top-menu{
+    background-color: orange;
+    color: white;
+ }
+
+
+header .nav-flex .top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-flex .top-menu .top-links ul,
+header .nav-flex .top-menu .icon-links ul{
+    display: flex;
+    gap: 5px;
+}
+
+header .nav-flex .top-menu .top-links,
+header .nav-flex .top-menu .icon-links{
+    width: 20%;
+}
 
