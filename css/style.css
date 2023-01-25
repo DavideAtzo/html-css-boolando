@@ -145,6 +145,7 @@ main .main-flex .prodotti .abito .foto-abito img{
 main .main-flex .prodotti .abito .descr-abito{
     width: 450px;
     vertical-align: 1.2em;
+    margin-top: 5px;
 }
 
 main .main-flex .prodotti .abito .descr-abito .sconto {
@@ -154,4 +155,7 @@ main .main-flex .prodotti .abito .descr-abito .sconto {
 main .main-flex .prodotti .abito .descr-abito .canc{
     color: black;
     display: inline-block;
+    margin-left: 5px;
+    text-decoration: line-through;
+    
 }
